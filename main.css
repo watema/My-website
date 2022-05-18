@@ -1,0 +1,30 @@
+header { 
+    color:rgb(225, 250, 215);
+    font-size: 20px;
+    background-color: grey;
+    font-weight: bold;
+}
+
+h1 {
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: hwb(177 13% 30%);
+}
+
+section{
+    text-align: center;
+    background-color: aqua;
+    border: 30ch;
+
+}
+.two  {text-align: center;
+    background-color: rgb(12, 62, 62);
+}
+footer{color: green-blue ;
+    text-align: center;
+    
+    
+
+
+}
