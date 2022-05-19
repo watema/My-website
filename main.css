@@ -20,7 +20,7 @@ h1 {
 section{
     text-align: center;
     background-color: aqua;
-    border: 30ch;
+    /* border-left: 30; not sure about border property  */
 
 }
 .two  {text-align: center;
