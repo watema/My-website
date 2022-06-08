@@ -1,35 +1,39 @@
 body {
-    margin: 0;
+  margin:20px 0;
 }
 
-header { 
-    color:rgb(225, 250, 215);
-    font-size: 20px;
-    background-color: grey;
-    font-weight: bold;
+header {
+  color: rgb(225, 250, 215);
+  font-size: 20px;
+  background-color: grey;
+  font-weight: bold;
+  margin: 10 0;
 }
-
 
 h1 {
-    color:black;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: hwb(177 13% 30%);
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: hwb(177 13% 30%);
 }
 
-section{
-    text-align: center;
-    background-color: aqua;
-    /* border-left: 30; not sure about border property  */
-
+h3 {
+  margin-top: 0;
 }
-.two  {text-align: center;
-    background-color: rgb(12, 62, 62);
+
+section {
+  text-align: center;
+  background-color: aqua;
+  padding: 20px 0;
+  /* border-left: 30; not sure about border property  */
 }
-footer{color: green-blue ;
-    text-align: center;
-    
-    
 
+.two {
+  text-align: center;
+  background-color: rgb(12, 62, 62);
+}
 
+footer {
+  color: green-blue;
+  text-align: center;
 }
