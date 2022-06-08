@@ -2,8 +2,17 @@ body {
   margin:20px 0;
 }
 
-.container{
+ul {
   display: flex;
+  justify-content: flex-end;
+}
+li {
+  list-style: none;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
 }
 
 header {
