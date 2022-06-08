@@ -2,6 +2,10 @@ body {
   margin:20px 0;
 }
 
+.container{
+  display: flex;
+}
+
 header {
   color: rgb(225, 250, 215);
   font-size: 20px;
