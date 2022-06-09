@@ -14,7 +14,9 @@ li {
 li a {
   text-decoration: none;
 }
-
+a:hover{
+  background-color: rgb(99, 207, 124);
+}
 header {
   color: rgb(225, 250, 215);
   font-size: 20px;
