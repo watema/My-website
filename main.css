@@ -1,7 +1,13 @@
 body {
   margin:30px 0;
+  background: aliceblue;
 }
-
+h1 {
+  color: royalblue;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
 ul {
   display: flex;
   justify-content: flex-end;
@@ -38,8 +44,10 @@ h3 {
 
 section {
   text-align: center;
-  background-color: aqua;
+  background-color: aliceblue;
   padding: 20px 0;
+  margin-inline-start: 30px;
+}
   /* border-left: 30; not sure about border property  */
 }
 
@@ -48,7 +56,19 @@ section {
   background-color: rgb(12, 62, 62);
 }
 
-footer {
-  color: green-blue;
-  text-align: center;
+.awesomefooter{ background: yellow;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+padding: 90px;
+align-items: center;
+margin-inline-start: 30px ;
 }
+
+/* footer { */
+  /* color: green-blue; */
+  /* text-align: center; */
+
+
