@@ -47,25 +47,29 @@ section {
   background-color: aliceblue;
   padding: 20px 0;
   margin-inline-start: 30px;
+  
 }
+
   /* border-left: 30; not sure about border property  */
-}
 
 .two {
   text-align: center;
   background-color: rgb(12, 62, 62);
+  
 }
 
-.awesomefooter{ background: yellow;
+.awesomefooter{ 
 width: 100px;
 height: 100px;
 display: flex;
 justify-content: space-evenly;
 text-align: center;
 padding: 90px;
-align-items: center;
+align-items: left;
 margin-inline-start: 30px ;
 }
+article{ text-align: end;
+text-indent: 1in;}
 
 /* footer { */
   /* color: green-blue; */
