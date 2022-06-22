@@ -57,10 +57,19 @@ section {
     background-color: rgb(12, 62, 62);}
   
 
+aside {
+  display: flex;
+  border: 1px solid black;
+  /* width: 20px;x */
+  justify-content: center;
+}
 
 
-
-
+section {
+  border: 1px solid red;
+  width: 500px;
+  margin: 1px;
+}
 
 
 
