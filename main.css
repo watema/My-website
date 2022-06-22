@@ -54,9 +54,12 @@ section {
 
 .two {
   text-align: center;
-  background-color: rgb(12, 62, 62);
+    background-color: rgb(12, 62, 62);}
   
-}
+
+
+
+
 
 .awesomefooter{ 
 width: 100px;
