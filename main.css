@@ -53,38 +53,60 @@ section {
   /* border-left: 30; not sure about border property  */
 
 .two {
-  text-align: center;
-    background-color: rgb(12, 62, 62);}
+    text-align: center;
+    
+}
+    /* background-color: rgb(12, 62, 62);} */
   
 
 aside {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* width: 20px;x */
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 
 section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 500px;
   margin: 1px;
 }
+img {
+  float: left;
+  
+}
 
+p {
+  text-align: justify;
+  font-size: 25px;
+}
+
+.square{width: 600px
+  ;
+margin: auto;}
+
+.square h2 {
+  margin-bottom: 0;
+}
 
 
 .awesomefooter{ 
-width: 100px;
+/* width: 100px; */
 height: 100px;
 display: flex;
-justify-content: space-evenly;
-text-align: center;
+justify-content: center;
+/* text-align: center; */
 padding: 90px;
-align-items: left;
+/* align-items: left; */
 margin-inline-start: 30px ;
 }
 article{ text-align: end;
 text-indent: 1in;}
+
+.awesomefooter .fab, span {
+  padding: 10px;
+}
 
 /* footer { */
   /* color: green-blue; */
