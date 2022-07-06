@@ -32,7 +32,7 @@ header {
 }
 
 h1 {
-  color: black;
+  color: rgb(133, 141, 14);
   font-weight: bolder;
   text-align: center;
   text-decoration: hwb(177 13% 30%);
