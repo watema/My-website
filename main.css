@@ -92,15 +92,15 @@ margin: auto;}
 
 
 .awesomefooter{ 
-  background-color: aquamarine;
+  background-color: #fdff7f;
 /* width: 100px; */
-height: 100px;
+height: 300px;
 display: flex;
 justify-content: center;
 /* text-align: center; */
 padding: 90px;
 /* align-items: left; */
-margin-inline-start: 30px ;
+margin-inline-start: 0 px ;
 }
 article{ text-align: end;
 text-indent: 1in;}
