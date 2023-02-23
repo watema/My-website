@@ -6,14 +6,36 @@
 content="width=device-width,initial-scale=1.0"/>
 <link rel="stylesheet" href="main.css">
 <!-- <link script="" href="/css/master.css"> it has nothing to do with here -->
-<script src="main.js" ></script>
+<script src="main.js"></script>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Programs.html">Programs</a>
+    <a href="Projects.html">Projects</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <title>WEH|Watema Emmanuel Foundation.</title>
 
 </head>
 
 <body>
- <header>
+
+  
+<!-- <header>
   <div class="container">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -23,26 +45,25 @@ content="width=device-width,initial-scale=1.0"/>
     </ul>
   </div>
   
-        </header>
-        <div class="wrapper">
+ </header> -->
+
+ <div class="wrapper">
           <h1> WEF|Watema Emmanuel Health Initiatives. </h1>
-      </div>            
+ </div>            
           
-        
-        
+
         <aside>
-          <section>
+          <section class="healthcareforallpeople">
             <h2> Health Care For All people.</h2>
             <img src="images/watema Emmanuel2.jpg" width="450px" height="260px">
+
             <span>  Georgia state University's students distributed more than 20,000 masks to clarkston 
               residents during this period of covid-19 crisis.
               
             </span>
          
          </section>
-       
-       
- 
+
          <section class="two"> 
            <h2> Health promotion</h2>
            <img src="images/watema1.jpg" width="450px" height="260px">
@@ -54,19 +75,22 @@ content="width=device-width,initial-scale=1.0"/>
          </section>
  
         </aside>
-        <span>Donate downhere</span>
-<form>
-  <!-- <label for ="Lion"> First name:</label> go back later -->
+        
+        <h2>
+          <p>Donate</p>
+        </h2>
+<form class="donate">
   <input id="lion "type="text" placeholder="First name">
-  <input type="tel">
-  <label for ="pass"> password:</label>
+  <input id="tiger"type="text" placeholder="Last name">
+  <br>
+  <P> Sign up here </P>
+  <input id="lulinda" type="text" placeholder="Email"><br>
   
-  <input type="password">
-  <input type="Email">
+  <input id="lusenda" type="text" placeholder="Passcode">
+  <input type="submit" value="Submit">
   
 </form>
 
-<br>
 
 
  
