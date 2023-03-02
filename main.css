@@ -69,7 +69,8 @@ section {
 
   /* border-left: 30; not sure about border property  */
 
-  .flex-item-left {float: right;
+  .flex-item-left {
+    float: left;
     padding: 130;
     shape-outside: circle(50%);
      
@@ -97,6 +98,7 @@ section {
 }
 img {
   float: left;
+  margin: 30px;
   
 }
 
@@ -139,14 +141,23 @@ margin: auto;}
 
 
 }
-.lulinda {box-sizing: border-box; border: 1px solid blue; width: 100%; float: right; 
+.lulinda {box-sizing: border-box;
+   border: 1px solid blue;
+    width: 100%; 
+    float: right; 
 
 
 }
+
 .tiger { 
   background-color:#7e7e9f;
-  box-sizing: border-box; border: 1px solid blue; width: 100%; float: right; 
-
+  box-sizing: border-box;
+   border: 1px solid blue;
+   width: 100%; float: right; 
+   
+}
+.tiger p{
+  padding: 30px;
 }
 
 .awesomefooter{ 
@@ -236,7 +247,25 @@ text-indent: 1in;}
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: #aa0404;
   color: white;
 }
 /*  */
+
+@media(min-width:1200px){ 
+  body{ width:100%;
+
+  }
+  .awesomefooter{ 
+    display: flex;
+  
+
+  }
+.dark-text{color:black;
+
+}
+
+
+
+  
+}
