@@ -251,6 +251,14 @@ text-indent: 1in;}
   color: white;
 }
 /*  */
+p{
+  text-align: justify;
+    font-size: 20px;
+}
+
+.baraka {display: flex;
+
+}
 
 @media(min-width:1200px){ 
   body{ width:100%;
